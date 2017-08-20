@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "157381601222",
+    "firebase_url": "https://whomiss-d2648.firebaseio.com",
+    "project_id": "whomiss-d2648",
+    "storage_bucket": "whomiss-d2648.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157381601222:android:0bddc5600920948d",
+        "android_client_info": {
+          "package_name": "com.benishay.danny.whomiss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157381601222-h6t839jd88pemo7lq2hg4122pd0urv5b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.benishay.danny.whomiss",
+            "certificate_hash": "ae7707d16163aba4d8938f4591ec51e97888be91"
+          }
+        },
+        {
+          "client_id": "157381601222-sb9l2170lm5gfa7savp9nl3uleaoulsf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxbBvSDW-4Sc8OhX_qWrUJeb5WJAybNzc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157381601222-sb9l2170lm5gfa7savp9nl3uleaoulsf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

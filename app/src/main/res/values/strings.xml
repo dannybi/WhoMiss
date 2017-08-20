@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WhoMiss</string>
+    <string name="signup">Sign Up</string>
+    <string name="signin">Sign In</string>
+    <string name="EnterEmail">Enter Email address</string>
+    <string name="enterpassw">Enter Password</string>
+    <string name="reenterpassw">Re-Enter Password</string>
+    <string name="reenterpass">Re Enter Password</string>
+    <string name="entername">Enter Full Name</string>
+    <string name="enterphone">Enter Phone Number</string>
+</resources>
