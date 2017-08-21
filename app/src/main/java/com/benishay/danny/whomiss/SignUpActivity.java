@@ -79,12 +79,12 @@ public class SignUpActivity extends AppCompatActivity {
                                 myTeachers.setName(stName);
                                 myTeachers.setPhone(stPhone);
 //below is the point that my prog CRASH
-                                Toast.makeText(SignUpActivity.this, "RIGHT B4 the bug", Toast.LENGTH_LONG).show();
-                                DBUtils.myTeachersRef.child(myTeachers.getTeachKey_email()).setValue(
+//                                Toast.makeText(SignUpActivity.this, "RIGHT B4 the bug", Toast.LENGTH_LONG).show();
+                                DBUtils.myTeachersRef.child(myTeachers.getTeachKey_email().replace('.','*')).setValue(
                                         myTeachers).addOnCompleteListener(new OnCompleteListener<Void>() {
                                     @Override
                                     public void onComplete(@NonNull Task<Void> task) {
-                                        Toast.makeText(SignUpActivity.this, "RIGHT after the bug", Toast.LENGTH_SHORT).show();
+//                                        Toast.makeText(SignUpActivity.this, "RIGHT after the bug", Toast.LENGTH_SHORT).show();
                                         if (task.isSuccessful()) {
                                             finish();
                                         }
