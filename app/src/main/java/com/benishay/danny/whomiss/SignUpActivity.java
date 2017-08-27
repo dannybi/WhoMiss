@@ -78,7 +78,6 @@ public class SignUpActivity extends AppCompatActivity {
                                 myTeachers.setTeachKey_email(stEmail);
                                 myTeachers.setName(stName);
                                 myTeachers.setPhone(stPhone);
-//below is the point that my prog CRASH
 //                                Toast.makeText(SignUpActivity.this, "RIGHT B4 the bug", Toast.LENGTH_LONG).show();
                                 DBUtils.myTeachersRef.child(myTeachers.getTeachKey_email().replace('.','*')).setValue(
                                         myTeachers).addOnCompleteListener(new OnCompleteListener<Void>() {

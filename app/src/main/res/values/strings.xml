@@ -8,4 +8,9 @@
     <string name="reenterpass">Re Enter Password</string>
     <string name="entername">Enter Full Name</string>
     <string name="enterphone">Enter Phone Number</string>
+    <string name="signout">Sign Out</string>
+    <string name="settings">Settings</string>
+    <string name="removegroup">Remove Group</string>
+    <string name="addgroup">Add Group</string>
+    <string name="secertary">Secretary</string>
 </resources>

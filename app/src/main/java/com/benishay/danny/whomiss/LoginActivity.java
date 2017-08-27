@@ -60,7 +60,7 @@ public class LoginActivity extends AppCompatActivity {
         String stEmail = etmail.getText().toString();
         String stPassw = etpassw.getText().toString();
         boolean isOK = true;
-        if (stEmail.length() < 6 || stEmail.indexOf('@') < 1 || stPassw.length() < 8) {
+        if (stEmail.length() < 6 || stEmail.indexOf('@') < 1 || stPassw.length() < 6) {
             isOK = false;
             etmail.setError("wrong email or password");
         }
