@@ -1,21 +1,33 @@
 package com.benishay.danny.whomiss.Data;
 
+import java.io.Serializable;
 import java.util.HashMap;
 
 /**
  * Created by Dan on 19/08/2017.
  */
 
-public class MyGroups {
-    private String gKey, name, mngrStudKey;
+public class MyGroups implements Serializable {
+    private String gKey;
+    private String name;
+    private String schoolName;
+    private String mngrStudKey;
+    private String grader;
     private HashMap<String, Object> studentKeys;
     private HashMap<String, Object> teacherKeys;
-
 
     public MyGroups() {
 
         this.studentKeys = new HashMap<>();
         this.teacherKeys = new HashMap<>();
+    }
+
+    public String getSchoolName() {
+        return schoolName;
+    }
+
+    public void setSchoolName(String schoolName) {
+        this.schoolName = schoolName;
     }
 
     public String getgKey() {
@@ -65,6 +77,14 @@ public class MyGroups {
 
     public void setTeacherKeys(HashMap<String, Object> teacherKeys) {
         this.teacherKeys = teacherKeys;
+    }
+
+    public String getGrader() {
+        return grader;
+    }
+
+    public void setGrader(String grader) {
+        this.grader = grader;
     }
 
     @Override

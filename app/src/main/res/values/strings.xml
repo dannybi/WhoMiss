@@ -13,4 +13,6 @@
     <string name="removegroup">Remove Group</string>
     <string name="addgroup">Add Group</string>
     <string name="secertary">Secretary</string>
+    <string name="groupname">Enter New Group Name</string>
+    <string name="enterschoolname">Enter School Name</string>
 </resources>
